@@ -204,16 +204,14 @@ if __name__ == '__main__':
     generation_size = -1
 
     # if there is arguments use them instead of default values
-    if len(sys.argv) == 4:
+    if len(sys.argv) == 3:
         board_size = int(sys.argv[1])
         population_size = int(sys.argv[2])
-        generation_size = int(sys.argv[3])
 
     # print some information about current quest!
     print("Starting:")
     print("    board size      : ", board_size)
     print("    population size : ", population_size)
-    print("    generation size : ", generation_size)
     print("==================================================================")
 
     # Run!
